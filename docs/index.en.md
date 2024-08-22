@@ -12,8 +12,8 @@ hide:
 
 
 <div style="text-align: center;" markdown>
-[Get Started](#){ .md-button .md-button--primary }
-[Learn More](#){ .md-button }
+[Repository](https://github.com/OpenXiangShan/XiangShan){ .md-button .md-button--primary }
+[Document](https://docs.xiangshan.cc/){ .md-button }
 </div>
 
 ---
