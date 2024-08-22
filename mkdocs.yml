@@ -1,0 +1,77 @@
+# doc for pdf plug-in: https://pypi.org/project/mkdocs-with-pdf/
+site_name: 香山 XiangShan
+theme:
+  name: material
+  logo: figs/logo_title.svg
+  custom_dir: docs/.overrides
+  language: zh
+  features:   
+  palette: 
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+extra:
+  social:
+
+extra_css:
+  - stylesheets/extra.css
+
+repo_url: https://github.com/OpenXiangShan/XiangShan
+repo_name: OpenXiangShan/XiangShan
+edit_uri: https://github.com/OpenXiangShan/XiangShan-doc/edit/main/docs/
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+  - abbr
+  - pymdownx.snippets
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - i18n:
+      languages:
+        zh: 
+          name: "中文"
+        en: 
+          name: "English"
+      default_language: 'zh'
+      material_alternate: true
+  # - with-pdf:
+  #     author: XiangShan Team
+  #     copyright: XiangShan Team, 2022
+  #     cover: true
+  #     cover_title: XiangShan 微架构文档
+  #     cover_subtitle: 南湖架构
+  #     cover_logo: figs/LOGO.png
+  #     toc_level: 3
+  #     enabled_if_env: ENABLE_PDF_EXPORT
+  #     output_path: /tmp/doc/document.pdf
+
+
+nav:
+  - Home: index.md
