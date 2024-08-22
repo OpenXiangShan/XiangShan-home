@@ -1,5 +1,7 @@
 # doc for pdf plug-in: https://pypi.org/project/mkdocs-with-pdf/
 site_name: 香山 XiangShan
+copyright: CC-BY-4.0 &copy; The XiangShan Team
+
 theme:
   name: material
   logo: figs/logo_title.svg
@@ -27,6 +29,15 @@ theme:
 
 extra:
   social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/OpenXiangShan
+  alternate:
+    - name: 中文
+      link: /zh/
+      lang: zh
+    - name: English
+      link: /en/ 
+      lang: en
 
 extra_css:
   - stylesheets/extra.css

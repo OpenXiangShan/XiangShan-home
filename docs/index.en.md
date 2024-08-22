@@ -20,53 +20,52 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Open Source__
+-   :simple-opensourcehardware:{ .lg .middle } __Open Source__
 
     ---
 
-    Install [`mkdocs-material`](#) with [`pip`](#) and get up
-    and running in minutes
+    Xiangshan adopts the [MulanPSL2](http://license.coscl.org.cn/MulanPSL2) license, and open sourcing all design code and development flow. Contributions from the community are welcome.
 
-    [:octicons-arrow-right-24: Getting started](#)
+    <!-- [:octicons-arrow-right-24: License](#) -->
 
--   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
-
-    ---
-
-    Focus on your content and generate a responsive and searchable static site
-
-    [:octicons-arrow-right-24: Reference](#)
-
--   :material-format-font:{ .lg .middle } __Made to measure__
+-   :material-speedometer:{ .lg .middle } __High Performance__
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    Xiangshan is the world's top-performing open-source processor core, continuously pushing for higher performance.
 
-    [:octicons-arrow-right-24: Customization](#)
+    <!-- [:octicons-arrow-right-24: Reference](#) -->
 
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
-
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+-   :simple-riscv:{ .lg .middle } __RISC-V__
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+    Xiangshan uses the open [RISC-V](https://riscv.org/) instruction set architecture, supporting RV64GCBVH.
 
-    [:octicons-arrow-right-24: License](#)
+    <!-- [:octicons-arrogw-right-24: Customization](#) -->
 
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+-   :material-clock-fast:{ .lg .middle } __Agile Development__
 
     ---
 
-    Material for MkDocs is licensed under MIT and available on [GitHub]
+    Xiangshan uses the [Chisel](https://www.chisel-lang.org/) HDL, pioneering an agile development process and infrastructure for high-performance processors.
 
-    [:octicons-arrow-right-24: License](#)
+    <!-- [:octicons-arrow-right-24: License](#) -->
+
+-   :material-scale-balance:{ .lg .middle } __Microarchitecture Innovation__
+
+    ---
+
+    Xiangshan is an excellent microarchitecture research platform, enabling the academic exploration of innovative ideas.
+
+    <!-- [:octicons-arrow-right-24: License](#) -->
+
+-   :material-scale-balance:{ .lg .middle } __Industrial Level__
+
+    ---
+
+    Xiangshan collaborates closely with industry partners to meet commercial processor requirements.
+
+    <!-- [:octicons-arrow-right-24: License](#) -->
 
 </div>

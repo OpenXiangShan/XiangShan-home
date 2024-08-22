@@ -41,7 +41,7 @@ hide:
 
     ---
 
-    香山采用开放的 RISC-V 指令集，支持 RV64GCBVH。
+    香山采用开放的 [RISC-V](https://riscv.org/) 指令集，支持 RV64GCBVH。
 
     <!-- [:octicons-arrow-right-24: Customization](#) -->
 
@@ -49,7 +49,7 @@ hide:
 
     ---
 
-    香山选用 chisel 硬件描述语言，探索并建立了一套高性能处理器的敏捷开发流程和基础设施。
+    香山选用 [Chisel](https://www.chisel-lang.org/) 硬件描述语言，探索并建立了一套高性能处理器的敏捷开发流程和基础设施。
 
     <!-- [:octicons-arrow-right-24: 开发框架](#) -->
 
@@ -65,7 +65,7 @@ hide:
 
     ---
 
-    香山与工业界伙伴紧密合作，努力使设计达到工业水准。
+    香山与工业界伙伴紧密合作，能够满足商用处理器要求。
 
     <!-- [:octicons-arrow-right-24: License](#) -->
 
