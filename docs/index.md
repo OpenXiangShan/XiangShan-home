@@ -57,7 +57,7 @@ hide:
 
     ---
 
-    香山是绝佳的微架构学术研究平台，能够充分支持学术界试验创新想法。[致谢](https://docs.xiangshan.cc/zh-cn/latest/tutorials/acknowledgments/)
+    香山是绝佳的微架构学术研究平台，能够充分支持学术界试验创新想法。[致谢](https://docs.xiangshan.cc/zh-cn/latest/acknowledgments/)
 
     <!-- [:octicons-arrow-right-24: License](#) -->
 

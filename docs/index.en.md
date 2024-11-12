@@ -56,7 +56,7 @@ hide:
 
     ---
 
-    Xiangshan is an excellent microarchitecture research platform, enabling the academic exploration of innovations. [Acknowledgments](https://docs.xiangshan.cc/zh-cn/latest/tutorials/acknowledgments/)
+    Xiangshan is an excellent microarchitecture research platform, enabling the academic exploration of innovations. [Acknowledgments](https://docs.xiangshan.cc/zh-cn/latest/acknowledgments/)
 
     <!-- [:octicons-arrow-right-24: License](#) -->
 
