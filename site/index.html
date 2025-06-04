@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Language Redirect</title>
+  <meta http-equiv="refresh" content="5; url=/en/" />
+  <style>
+    .centralizedContainer {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      position: fixed;
+      align-items: center;
+      justify-content: center;
+      font-size: 200%;
+    }
+  </style>
+  <script>
+    window.onload = function () {
+      const lang = navigator.language || navigator.userLanguage;
+      if (lang.startsWith('zh')) {
+        window.location.href = '/zh/';
+      } else {
+        window.location.href = '/en/';
+      }
+    };
+  </script>
+</head>
+<body>
+  <div class="centralizedContainer">
+    <div><a href="/en/">Redirecting ...</a></div>
+  </div>
+</body>
+</html>

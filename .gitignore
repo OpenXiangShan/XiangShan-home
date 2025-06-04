@@ -1,2 +1,8 @@
 .DS_Store
 
+# Python virtual environments
+venv/
+.venv/
+
+site/*
+!site/index.html
