@@ -2,6 +2,7 @@ docs_dir: 'docs/zh'
 site_dir: 'site/zh'
 
 site_name: 香山 XiangShan
+site_url: https://xiangshan.cc/zh/
 copyright: CC-BY-4.0 &copy; The XiangShan Team
 
 theme:
@@ -29,6 +30,7 @@ theme:
         name: Switch to light mode
 
 extra:
+  scope: /
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/OpenXiangShan
